@@ -22,7 +22,7 @@ platforms:
   #   pre_build_image: True
   # - name: ansible-role-openbox2go-arch
   #   image: ghcr.io/avnes/molecule-arch:latest
-    pre_build_image: True
+  #  pre_build_image: True
 provisioner:
   name: ansible
   config_options:
