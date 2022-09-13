@@ -11,17 +11,17 @@ platforms:
   - name: ansible-role-openbox2go-fedora
     image: ghcr.io/avnes/molecule-fedora:35
     pre_build_image: True
-  - name: ansible-role-openbox2go-ubuntu
-    image: ghcr.io/avnes/molecule-ubuntu:latest
-    pre_build_image: True
-  - name: ansible-role-openbox2go-opensuse
-    image: ghcr.io/avnes/molecule-opensuse:latest
-    pre_build_image: True
-  - name: ansible-role-openbox2go-debian
-    image: ghcr.io/avnes/molecule-debian:latest
-    pre_build_image: True
-  - name: ansible-role-openbox2go-arch
-    image: ghcr.io/avnes/molecule-arch:latest
+  # - name: ansible-role-openbox2go-ubuntu
+  #   image: ghcr.io/avnes/molecule-ubuntu:latest
+  #   pre_build_image: True
+  # - name: ansible-role-openbox2go-opensuse
+  #   image: ghcr.io/avnes/molecule-opensuse:latest
+  #   pre_build_image: True
+  # - name: ansible-role-openbox2go-debian
+  #   image: ghcr.io/avnes/molecule-debian:latest
+  #   pre_build_image: True
+  # - name: ansible-role-openbox2go-arch
+  #   image: ghcr.io/avnes/molecule-arch:latest
     pre_build_image: True
 provisioner:
   name: ansible

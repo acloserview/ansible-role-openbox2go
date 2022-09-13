@@ -22,6 +22,8 @@ galaxy_info:
     - 32
     - 33
     - 34
+    - 35
+    - 36
   - name: Ubuntu
     versions:
     - xenial
